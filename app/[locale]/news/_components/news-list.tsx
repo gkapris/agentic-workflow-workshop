@@ -26,7 +26,7 @@ export async function NewsList() {
         <li key={story.id}>
           <Card>
             <CardHeader>
-              <CardTitle fontSize="md">
+              <CardTitle size="md">
                 <Link
                   href={story.url}
                   target="_blank"
