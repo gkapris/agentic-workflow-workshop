@@ -25,14 +25,10 @@ export function FeaturedSessions({ sessions }: { sessions: Session[] }) {
       <Grid gap="4" templateColumns={{ base: "1fr", sm: "repeat(3, 1fr)" }}>
         {sessions.map((session) => (
           <Link key={session.id} href={`/sessions/${session.id}`}>
-            <Card
-              height="full"
-              transition="border-color 0.2s"
-              _hover={{ borderColor: "var(--card-border-hover-hex)" }}
-            >
+            <Card variant="interactive">
               <CardHeader>
                 <Badge width="fit-content">{session.track}</Badge>
-                <CardTitle fontSize="md">{session.title}</CardTitle>
+                <CardTitle size="md">{session.title}</CardTitle>
               </CardHeader>
               <CardContent>
                 <Text fontSize="sm" color="var(--text-muted)">
