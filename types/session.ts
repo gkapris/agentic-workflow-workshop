@@ -12,7 +12,7 @@ export type Track = Database["public"]["Enums"]["session_track"];
  */
 export type Session = Pick<
   SessionRow,
-  "id" | "title" | "speaker" | "track" | "room" | "description"
+  "id" | "title" | "speaker" | "track" | "level" | "room" | "description"
 > & {
   startTime: SessionRow["start_time"];
   durationMinutes: SessionRow["duration_minutes"];

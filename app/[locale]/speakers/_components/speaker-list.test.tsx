@@ -11,6 +11,7 @@ const session: Session = {
   title: "Opening Keynote",
   speaker: "Marta Fernandez",
   track: "React",
+  level: "beginner",
   room: "Main Hall",
   startTime: "09:00",
   durationMinutes: 45,

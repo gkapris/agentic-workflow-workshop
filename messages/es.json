@@ -13,6 +13,11 @@
     "line1": "Tu agenda, tus sesiones —",
     "line2": "en un solo lugar"
   },
+  "Level": {
+    "beginner": "Principiante",
+    "intermediate": "Intermedio",
+    "advanced": "Avanzado"
+  },
   "SpeakersPage": {
     "title": "Ponentes",
     "description": "Quién habla en React Alicante, y cuándo.",
