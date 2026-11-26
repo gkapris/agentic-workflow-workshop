@@ -24,6 +24,7 @@ export default async function SpeakersPage({
 
       <Grid
         as="ul"
+        role="list"
         listStyleType="none"
         templateColumns={{
           base: "1fr",
