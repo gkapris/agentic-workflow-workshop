@@ -1,5 +1,40 @@
 # Changelog
 
+## [0.4.0] — 2026-11-26
+
+### Features
+
+- Add Speakers page: scaffold, speaker cards rendered from `fetchSessions`, and a `groupSessionsBySpeaker` util
+- Add session level enum and update the sessions table (database migration)
+- Show session level on the session page and timeline block
+- Return session level from the sessions service and show it in the timeline
+
+### Bug Fixes
+
+- Speakers: address accessibility audit findings on the speaker card
+- Speakers: address code review findings
+
+### Tests
+
+- Cover speaker grouping and the speaker card
+- Cover the level badge on the session page
+
+### Maintenance
+
+- Update `.env` entry in `.gitignore` and bump PostgrestVersion to 14.18
+- Trigger the first CI run on dev
+
+## Test Suite
+
+| Suite          | Status     |
+| -------------- | ---------- |
+| ESLint         | ✅ passed  |
+| Type-check     | ✅ passed  |
+| Unit tests     | ✅ passed  |
+| Build (Vercel) | ⏳ pending |
+
+CI: https://github.com/gkapris/agentic-workflow-workshop/actions/runs/45891182502
+
 ## [0.3.2] — 2026-11-26
 
 ### Maintenance
