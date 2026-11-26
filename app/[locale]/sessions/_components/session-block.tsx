@@ -26,7 +26,7 @@ export function SessionBlock({ session, top, height }: SessionBlockProps) {
             {session.title}
           </Text>
           <Text color="var(--text-muted)" truncate>
-            {session.startTime} · {session.speaker} · {tLevel(session.level)}
+            {session.startTime} · {tLevel(session.level)} · {session.speaker}
           </Text>
         </SurfaceCard>
       </Box>
